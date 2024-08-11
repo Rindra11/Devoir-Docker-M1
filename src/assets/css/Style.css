@@ -1,0 +1,38 @@
+.App {
+    display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .navbar {
+        background-color: #282c34;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .main-content {
+        display: flex;
+        height: 100%;
+    }
+    
+    .sidebar {
+        width: 200px;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+    
+    .dashboard {
+        flex-grow: 1;
+        padding: 20px;
+        background-color: #e9ecef;
+    }
+    
+    .widget {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    
